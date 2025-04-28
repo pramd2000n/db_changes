@@ -1,0 +1,14 @@
+CREATE TABLE TBL_C_M_LOAN_RELATION_MASTER (
+    MAPID int,
+    RELATIONSHIP_CODE varchar(512),
+    RELATIONSHIP_DESC varchar(512),
+    RELATION_TYPE varchar(512),
+    RELATION_STATUS varchar(512),
+
+);
+
+
+
+
+
+

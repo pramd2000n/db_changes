@@ -1,0 +1,18 @@
+CREATE TABLE TBL_C_M_LOAN_CUSTOMER_RELATION_DETAILS (
+    IID int,
+    IRELATION_STATUS_ID varchar(20),
+    ICUSTORMER_ID varchar(20),
+    IRELATION_CUSTORMER_ID varchar(20),
+    RELATED_PARTY_NIC varchar(100),
+    VRELATIONSHIP_REMARK varchar(4000),
+    DADDED_DATE date,
+    IACTIVE int,
+    DELETE_FLAG varchar(20),
+
+);
+
+
+
+
+
+

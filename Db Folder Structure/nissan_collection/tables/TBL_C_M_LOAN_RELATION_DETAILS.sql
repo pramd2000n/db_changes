@@ -1,0 +1,23 @@
+CREATE TABLE TBL_C_M_LOAN_RELATION_DETAILS (
+    ILOAN_RELATION_CUST_ID int,
+    IRELATION_STATUS_ID varchar(20),
+    ILOAN_MASTER_ID int,
+    ICUSTORMER_ID varchar(20),
+    VRELATIONSHIP_REMARK varchar(4000),
+    VINVOLVEMENT_START_DATE date,
+    INVOLVEMENT_FINISHED_DATE date,
+    DADDED_DATE date,
+    IACTIVE int,
+    DELETE_FLAG varchar(20),
+    COLLATRAL_REF_NO varchar(20),
+    POLICY_NO varchar(50),
+    RELATED_PARTY_NIC varchar(100),
+    DUPDATEDDATE datetime2,
+
+);
+
+
+
+
+
+

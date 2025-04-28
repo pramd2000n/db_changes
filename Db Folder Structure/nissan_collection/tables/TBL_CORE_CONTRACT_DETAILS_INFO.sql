@@ -1,0 +1,19 @@
+CREATE TABLE TBL_CORE_CONTRACT_DETAILS_INFO (
+    IID varchar(45),
+    LAST_CONTRACT_DATE date,
+    LAST_PAYMENT_DATE date,
+    LAST_PAYMENT_AMOUNT int,
+    LAST_RPC_DATE date,
+    LAST_DUE_DATE date,
+    LAST_ARREAS_DATE date,
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+

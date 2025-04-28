@@ -1,0 +1,22 @@
+CREATE TABLE TBL_CORE_ACCOUNT_OWNERSHIP_HIERARCHY (
+    CONTRACT_NO varchar(20),
+    COMPANY_ID varchar(20),
+    BRANCH_ID varchar(20),
+    DEPARTMENT_ID varchar(20),
+    ORIGINATE_OFFICER varchar(200),
+    OWNER_OFFICER varchar(200),
+    FOLLOWUP_OFFICER varchar(200),
+    RECOVERY_OFFICER varchar(200),
+    LEGAL_OFFICER varchar(200),
+    COLLECTION_OFFICER varchar(200),
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+

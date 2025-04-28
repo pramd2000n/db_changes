@@ -1,0 +1,51 @@
+CREATE TABLE TBL_C_DP_PAWING_MAIN (
+    IID int,
+    ILOANMASTERID decimal(20, 0),
+    IPAWINGDTAILID decimal(20, 0),
+    VTAGNO varchar(100),
+    IBRANCHID numeric(20, 0),
+    DREQUESTDATE datetime2,
+    IUSERID numeric(20, 0),
+    IPAWN_FEES numeric(20, 2),
+    IPAWN_CHARGES numeric(20, 2),
+    VCUSTOMERCONSENT varchar(10),
+    VREMARK varchar(1000),
+    VRELEASE_METHOD varchar(100),
+    DRELEASE_DATE datetime,
+    VRELEASE_REMARK varchar(1000),
+    IRELEASE_BY int,
+    DRELEASE_AT datetime,
+    VAPPROVED smallint,
+    VAPPROVALLEVEL1 smallint,
+    IAPPROVALLEVEL1USER int,
+    VLEVEL1REMARK varchar(1000),
+    IAPPROVALLEVEL1DATE datetime2,
+    VAPPROVALLEVEL2 smallint,
+    IAPPROVALLEVEL2USER int,
+    VLEVEL2REMARK varchar(1000),
+    IAPPROVALLEVEL2DATE datetime2,
+    VAPPROVALLEVEL3 smallint,
+    IAPPROVALLEVEL3USER int,
+    VLEVEL3REMARK varchar(1000),
+    IAPPROVALLEVEL3DATE datetime2,
+    VAPPROVALFINAL smallint,
+    IAPPROVALFINALUSER int,
+    VFINALREMARK varchar(1000),
+    IAPPROVALFINALDATE datetime2,
+    IDELIND smallint,
+    IPUBLISH smallint,
+    IADDEDBY decimal(20, 0),
+    DADDEDDATE datetime2,
+    IUPDATEDBY decimal(20, 0),
+    DUPDATEDDATE datetime2,
+    DDELETEDDATE datetime2,
+    VURL varchar(1000),
+    VPAWNINGSTATUS varchar(1000),
+
+);
+
+
+
+
+
+

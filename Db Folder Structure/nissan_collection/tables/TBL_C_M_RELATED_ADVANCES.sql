@@ -1,0 +1,19 @@
+CREATE TABLE TBL_C_M_RELATED_ADVANCES (
+    NEW_LOAN_NO varchar(45),
+    RESCHEDULE_DATE varchar(20),
+    CLASSIFICATION_CODE varchar(20),
+    MAXIMUM_OVERDUE_DAYS varchar(20),
+    RESCHEDULE_CODE varchar(20),
+    RESCHEDULE_REGULARIZED varchar(20),
+    REVIEW_DATE varchar(20),
+    CAPITAL_PORTION varchar(20),
+    INTEREST_PORTION varchar(20),
+    IID numeric(20, 0),
+
+);
+
+
+
+
+
+

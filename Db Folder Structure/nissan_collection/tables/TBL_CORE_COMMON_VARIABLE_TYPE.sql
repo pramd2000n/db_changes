@@ -1,0 +1,15 @@
+CREATE TABLE TBL_CORE_COMMON_VARIABLE_TYPE (
+    VARIABLE_ID int,
+    VARIABLE_CODE varchar(100),
+    VARIABLE_NAME varchar(100),
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+

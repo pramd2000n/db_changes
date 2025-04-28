@@ -1,0 +1,21 @@
+CREATE TABLE TBL_C_M_RENTAL_SCHEDULE (
+    IID numeric(20, 0),
+    ILOANMASTERID numeric(20, 0),
+    PARTICIPATION_NUMBER varchar(20),
+    NUM_OF_PERMITS varchar(20),
+    PAYMENT_SCHEDULE_TYPE varchar(20),
+    SCHEDULED_PAYMENT_AMOUNT decimal(20, 2),
+    ESCROW_PAYMENT_1 int,
+    ESCROW_PAYMENT_2 int,
+    SCHEDULE_PERIOD varchar(10),
+    SCHEDULE_FREQUENCY int,
+    SCHEDULE_SPECIFIC_DAY varchar(20),
+    FIRST_PAYMENT_DATE int,
+
+);
+
+
+
+
+
+

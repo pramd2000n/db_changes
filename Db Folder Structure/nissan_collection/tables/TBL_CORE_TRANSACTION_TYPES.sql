@@ -1,0 +1,15 @@
+CREATE TABLE TBL_CORE_TRANSACTION_TYPES (
+    TRANSACTION_ID varchar(20),
+    TRANSACTION_TYPE varchar(100),
+    TRANSACTION_CODE varchar(100),
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+

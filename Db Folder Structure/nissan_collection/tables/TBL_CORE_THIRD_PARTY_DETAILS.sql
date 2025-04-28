@@ -1,0 +1,15 @@
+CREATE TABLE TBL_CORE_THIRD_PARTY_DETAILS (
+    CONTRACT_NO varchar(20),
+    CUSTOMER_ID varchar(20),
+    IS_ACTIVE int,
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+

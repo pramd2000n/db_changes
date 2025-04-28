@@ -1,0 +1,14 @@
+CREATE TABLE TBL_CORE_ACCOUNT_OFFICER_TYPES (
+    OFFICER_CODE varchar(100),
+    OFFICER_TYPE varchar(100),
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+CREATE TABLE TBL_C_A_ACCOUNT_STATUS (
+    IID numeric(20, 0),
+    ILOAN_MASTER_ID numeric(20, 0),
+    IGRAND_PARANTIAL_STATUS_ID numeric(20, 0),
+    IPARENTAL_STATUS_ID numeric(20, 0),
+    IC121_STATUS_ID numeric(20, 0),
+    IADDEDBY numeric(20, 0),
+    DADDEDDATE datetime2,
+    VACCOUNT_UNAPPROVED char(1),
+    DUPDATEDATE datetime2,
+    BRANCH_RECOVERIES_FLAG varchar(10),
+    CENTRAL_RECOVERIES_FLAG varchar(10),
+    PREVIOUS_PARENTAL_STATUSID numeric(5, 0),
+    PREVIOUS_C121_STATUSID numeric(5, 0),
+    IC121_STATUS_ID_TEST int,
+    IPARENTAL_STATUS_ID_TEST int,
+
+);
+
+
+
+
+
+

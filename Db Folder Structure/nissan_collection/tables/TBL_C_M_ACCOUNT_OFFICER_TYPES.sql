@@ -1,0 +1,15 @@
+CREATE TABLE TBL_C_M_ACCOUNT_OFFICER_TYPES (
+    IID numeric(25, 0),
+    OFFICER_CODE varchar(100),
+    OFFICER_TYPE varchar(100),
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+

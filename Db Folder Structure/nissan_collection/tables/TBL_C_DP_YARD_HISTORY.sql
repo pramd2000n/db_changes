@@ -1,0 +1,42 @@
+CREATE TABLE TBL_C_DP_YARD_HISTORY (
+    IID int,
+    IYARD_VEHICLE_ID int,
+    IAVAILBLEYARDID int,
+    DYARDDATE datetime2,
+    IREQUESTYARDID int,
+    DREQUESTYARDDATE datetime2,
+    VAPPROVED smallint,
+    VAPPROVALLEVEL1 smallint,
+    IAPPROVALLEVEL1USER int,
+    VLEVEL1REMARK varchar(1000),
+    IAPPROVALLEVEL1DATE datetime2,
+    VAPPROVALLEVEL2 smallint,
+    IAPPROVALLEVEL2USER int,
+    VLEVEL2REMARK varchar(1000),
+    IAPPROVALLEVEL2DATE datetime2,
+    VAPPROVALLEVEL3 smallint,
+    IAPPROVALLEVEL3USER int,
+    VLEVEL3REMARK varchar(1000),
+    IAPPROVALLEVEL3DATE datetime2,
+    VAPPROVALFINAL smallint,
+    IAPPROVALFINALUSER int,
+    VFINALREMARK varchar(1000),
+    IAPPROVALFINALDATE datetime2,
+    IDELIND smallint,
+    IPUBLISH smallint,
+    IADDEDBY decimal(20, 0),
+    DADDEDDATE datetime2,
+    IUPDATEDBY decimal(20, 0),
+    DUPDATEDDATE datetime2,
+    VURL varchar(1000),
+    VYARD_OUT_METHOD varchar(100),
+    VREMARKS varchar(1000),
+    DDELETEDDATE datetime2,
+
+);
+
+
+
+
+
+

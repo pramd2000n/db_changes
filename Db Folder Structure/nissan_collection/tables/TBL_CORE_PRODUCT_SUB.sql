@@ -1,0 +1,16 @@
+CREATE TABLE TBL_CORE_PRODUCT_SUB (
+    SUB_PRODUCT_ID int,
+    MAIN_PRODUCT_ID varchar(20),
+    SUB_PRODUCT_CODE varchar(20),
+    SUB_PRODUCT_NAME varchar(100),
+    LAST_UPDATED_DATE date,
+    LAST_EXTRACTED_DATE date,
+    DATE_CREATED date,
+
+);
+
+
+
+
+
+
